@@ -1,15 +1,15 @@
-﻿*,:before,:after {
+﻿*, :before, :after {
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box
 }
 
-a,a:focus,a:hover {
+a, a:focus, a:hover {
     color:#fff
 }
 
-.btn-default, .btn-default:hover, .btn-default:focus {
-    color:#333;
+.btn-secondary, .btn-secondary:hover, .btn-secondary:focus {
+    color: white;
     text-shadow:none;
     background-color:#fff;
     border:1px solid #fff;
@@ -23,7 +23,7 @@ html, body {
 body {
     color:#fff;
     text-align:center;
-    text-shadow:0 1px 3px rgba(0,0,0,.5)
+    text-shadow:0 1px 3px rgba(0,0,0,.5);
 }
 
 .site-wrapper {
@@ -33,53 +33,53 @@ body {
     min-height:100%;
     -webkit-box-shadow:inset 0 0 100px rgba(0,0,0,.5);
     -moz-box-shadow:inset 0 0 100px rgba(0,0,0,.5);
-    box-shadow:inset 0 0 100px rgba(0,0,0,.5)
+    box-shadow:inset 0 0 100px rgba(0,0,0,.5);
 }
 
 .site-wrapper-inner {
     display:table-cell;
-    vertical-align:top
+    vertical-align:top;
 }
 
 .cover-container {
     margin-right:auto;
-    margin-left:auto
+    margin-left:auto;
 }
 
 .inner {
-    padding:30px
+    padding:30px;
 }
 
 .masthead-brand {
     margin-top:10px;
-    margin-bottom:10px
+    margin-bottom:10px;
 }
 
-.masthead-nav>li {
-    display:inline-block
+.masthead-nav > li {
+    display:inline-block;
 }
 
 .masthead-nav>li+li {
-    margin-left:20px
+    margin-left:20px;
 }
-.masthead-nav>li>a {
+.masthead-nav > li > a {
      padding-right:0;
      padding-left:0;
      font-size:16px;
      font-weight:700;
      color:#fff;
      color:rgba(255,255,255,.75);
-     border-bottom:2px solid transparent
+     border-bottom:2px solid transparent;
  }
 
-.masthead-nav>li>a:hover,.masthead-nav>li>a:focus {
+.masthead-nav>li>a:hover, .masthead-nav>li>a:focus {
 background-color:transparent;
 border-bottom-color:#a9a9a9;
-border-bottom-color:rgba(255,255,255,.25)
+border-bottom-color:rgba(255,255,255,.25);
  }
  .masthead-nav > nav .active > a, .masthead-nav > .active > a:hover, .masthead-nav > .active > a:focus {
      color:#fff;
-     border-bottom-color:#fff
+     border-bottom-color:#fff;
  }
 
  @media(min-width:768px) {
@@ -88,39 +88,39 @@ border-bottom-color:rgba(255,255,255,.25)
      }
 
 .masthead-nav {
-    float:right
+    float:right;
 }
 }
  .cover {
-     padding:0 20px
+     padding:0 20px;
  }
  .cover .btn-lg {
      padding:10px 20px;
-     font-weight:700
+     font-weight:700;
  }
  .mastfoot {
      color:#999;
-     color:rgba(255,255,255,.5)
+     color:rgba(255,255,255,.5);
  }
 
  @media(min-width:768px) {
      
 .masthead {
     position:fixed;
-    top:0
+    top:0;
 }
 
 .mastfoot {
     position:fixed;
-    bottom:0
+    bottom:0;
 }
 
 .site-wrapper-inner {
-    vertical-align:middle
+    vertical-align: middle;
 }
 
 .masthead,.mastfoot,.cover-container {
-    width:100%
+    width: 100%;
 }
 }
  @media(min-width:992px) {
@@ -151,20 +151,18 @@ border-bottom-color:rgba(255,255,255,.25)
     background-position: center center;
 }
 .about .site-wrapper {
-    background-image: url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/11403438_848994545154884_7205900028720245091_n.jpg?oh=93c3035a405d6df12771aee2693a9246&oe=586F0A13);
+    background-image: url(https://lh3.googleusercontent.com/q-2RVRflg0r1irSBV4lIih0vQqd0HH6kn8woSRbGh0uFCtHUOpDRCxGZN5eFTyG95nfocXHIr7EyizqmdfHCJ6vMUEDCX0wOT8dt-DHkl2w2FHU7spD6aceerO1U0eN0O05y-qEKLZhyOItVNTN1dQNU_Oi2mt0SLdL400k0hLArZi2j7-G3_MWPMaZt1b-b045d-iaK9wbhecyBDvYYB-AmiUz2uZgQ6lEGVkc7ek5vXC5pe_9z05ONLtUhDSD4BfbRV0-Flz5mDmxL6St-FGZreOKd2RqByfM2C-fXPr0V6inwxh85sCntiwtfSlhWvcM6MY7lEjl9Gm9824MBqLDM_J4YTa6hmu4FtiFZE-ONd_jfLGjxvYFxFKMyaClEalQbgPsG6Kb9R2L0Zu_ty9quAMGk4t0-u92aFYtOvPPXiUN0WH9omKtw-rqBOMMq_ryWPntfPGY0IWRdl2xtw5ALrPQYQr1TwaZEDaHkNJr85suLebkwH5W0kq88rE6vH0tVZMa-clzAEobbZLXMh0p0oHVR55zXsYTpwJJ0nduGoYjEaeybp8oAstw1Js4tM4gYyFEGlw9NqQpxHslJM6RzCdb4PJm_YNrpaMDgKZZaQRvm=w1234-h694-no);
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
 }
-a.btn.btn-lg.btn-default {
-    opacity: 0.5;
-    color: #676363;
+
+
+a.btn.btn-outline-secondary {
+    border: 2px solid white;
 }
-a.btn.btn-lg.btn-default span {
-    color: darkslategray;
-    
-}
+
 div.inner.cover p.lead {
     margin-left: 40px;
 }
