@@ -8,6 +8,7 @@
     <link href="./style.css" rel="stylesheet" />
 </head>
 <body class="contact">
+
     <div class="site-wrapper">
 
         <div class="site-wrapper-inner">
@@ -16,13 +17,13 @@
 
                 <div class="masthead clearfix">
                     <div class="inner">
-                        
+
                         <nav>
                             <ul class="nav masthead-nav">
-                                <li class="home"><a href="index.html">Home</a></li>
-                                <li class="active"><a href="about.html">About</a></li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="#index">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#portfolio">Portfolio</a></li>
+                                <li><a href="#contact">Contact</a></li>
 
                             </ul>
                         </nav>
@@ -61,8 +62,21 @@
 
 
 
+
     <!-- LEAVE ME BE -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+    <script>
+$('.smooth').on('click', function() {
+    $.smoothScroll({
+        scrollElement: $('body'),
+        scrollTarget: '#' + this.id
+    });
+
+    return false;
+});
+    </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
