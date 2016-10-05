@@ -8,6 +8,11 @@ a, a:focus, a:hover {
     color:#fff
 }
 
+p { 
+    font-family: 'NexaBoldFree', Arial, Verdana; 
+
+}
+
 .btn-secondary, .btn-secondary:hover, .btn-secondary:focus {
     color: white;
     text-shadow:none;
@@ -57,6 +62,8 @@ body {
 
 .masthead-nav > li {
     display:inline-block;
+    font-size: 20px;
+    font-family: 'NexaBoldFree', Arial, Verdana; 
 }
 
 .masthead-nav>li+li {
@@ -102,8 +109,6 @@ border-bottom-color:rgba(255,255,255,.25);
      color:#999;
      color:rgba(255,255,255,.5);
  }
-
- @media(min-width:768px) {
      
 .masthead {
     position:fixed;
@@ -129,28 +134,28 @@ border-bottom-color:rgba(255,255,255,.25);
      }
 
  }
- .home .site-wrapper {
+.smooth#index .site-wrapper {
      background-image:url(https://scontent.fhou1-1.fna.fbcdn.net/v/t1.0-9/11221758_845794515474887_2095406007873945026_n.jpg?oh=739d0dbfff3387f81d82630503a6b8f6&oe=58682923);
      -moz-background-size:cover;
      -o-background-size:cover;
      background-size:cover;
      background-position:center center
  }
-.contact .site-wrapper {
+.smooth#contact .site-wrapper {
     background-image: url(https://scontent-ort2-1.xx.fbcdn.net/v/t1.0-9/13062018_983095058411498_2875076934618378839_n.jpg?oh=98ac4c797d34ff152f9ac6cb5afc982b&oe=5873E68B);
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
 }
-.portfolio .site-wrapper {
+.smooth#portfolio .site-wrapper {
     background-image: url(https://lh3.googleusercontent.com/RSdFcMTPwXy-Ww3hn7ADglOb4qG6bm4pJ9d0rnw3Kti6z56tvxIb0mVLAi1DfMN7sXsO7WfPVC9SgzYkSDVQj0_E8zxhnoOBzEF49EEeeCE637r9j9royT0tUWr8iz1l-rJ0fpyU-nNozH44qLIr4Smi-Rjw2rWnSJPMz3o7rzvEg8wRFa3CDaYvqvREb00LBeN0JvPSqPcMA3OAp_Y9pJu-tb3T5UMUzMDHm6IRZT7INhapjAsLDS_NEE5symP0CqH-FBnr0taPebkW-tyefxya9bWYeBTr-CTPsf_5za3VSo6vdfuEtlhu_GC0y9_f-XmB6KMLPFAUKmApbDLctPpTBWQc96EtS9j1h4x9X7T2YEbZazVyhMnbHpGFqooDMLlSdBEqCV3F2w43h-K4kpk3IQISHWWY3n_UM4FFgdH4S1hgG-NxmY2U-lGyK7mnlvB6O3B3xT8WkrdpTb_gyu9kEIe62hrQl8DV3y-KnRA-S2R4NA_LuIUOppm4n6upzNhNkUBEnYk8Pe2P1cc6rvQE5msI082U_6LDbwxFCxSfwAu9_h-SF1nfAdZ-JBH8MiEBEQm7W6S0fWIgzZkeOX5eIhJXWM2YX4UjcjZebc5vFwRs=w920-h518-no);
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-position: center center;
 }
-.about .site-wrapper {
+.smooth#about .site-wrapper {
     background-image: url(https://lh3.googleusercontent.com/q-2RVRflg0r1irSBV4lIih0vQqd0HH6kn8woSRbGh0uFCtHUOpDRCxGZN5eFTyG95nfocXHIr7EyizqmdfHCJ6vMUEDCX0wOT8dt-DHkl2w2FHU7spD6aceerO1U0eN0O05y-qEKLZhyOItVNTN1dQNU_Oi2mt0SLdL400k0hLArZi2j7-G3_MWPMaZt1b-b045d-iaK9wbhecyBDvYYB-AmiUz2uZgQ6lEGVkc7ek5vXC5pe_9z05ONLtUhDSD4BfbRV0-Flz5mDmxL6St-FGZreOKd2RqByfM2C-fXPr0V6inwxh85sCntiwtfSlhWvcM6MY7lEjl9Gm9824MBqLDM_J4YTa6hmu4FtiFZE-ONd_jfLGjxvYFxFKMyaClEalQbgPsG6Kb9R2L0Zu_ty9quAMGk4t0-u92aFYtOvPPXiUN0WH9omKtw-rqBOMMq_ryWPntfPGY0IWRdl2xtw5ALrPQYQr1TwaZEDaHkNJr85suLebkwH5W0kq88rE6vH0tVZMa-clzAEobbZLXMh0p0oHVR55zXsYTpwJJ0nduGoYjEaeybp8oAstw1Js4tM4gYyFEGlw9NqQpxHslJM6RzCdb4PJm_YNrpaMDgKZZaQRvm=w1234-h694-no);
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -158,14 +163,23 @@ border-bottom-color:rgba(255,255,255,.25);
     background-position: center center;
 }
 
+@font-face {
+	font-family: 'NexaBoldFree';
+	src: url('NexaBoldFree.eot'); /* IE9 Compat Modes */
+	src: url('NexaBoldFree.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('NexaBoldFree.woff') format('woff'), /* Modern Browsers */
+	     url('NexaBoldFree.ttf')  format('truetype'), /* Safari, Android, iOS */
+	     url('NexaBoldFree.svg#svgFontName') format('svg'); /* Legacy iOS */
+	}
 
-a.btn.btn-outline-secondary {
-    border: 2px solid white;
-}
 
-div.inner.cover p.lead {
-    margin-left: 40px;
 }
-div.inner.cover h1.cover-heading {
-    margin-left: 45px;
+/*slide_img-inner {
+    background-image: url(https://scontent.fhou1-2.fna.fbcdn.net/v/t1.0-9/14264257_1071727992881537_1692395673348133146_n.jpg?oh=5530f5390fcb6305186dec5b3a5101c7&oe=586A8763);
+    background-image: url(https://scontent.fhou1-2.fna.fbcdn.net/v/t1.0-9/13895328_1046848518702818_4059700144607393062_n.jpg?oh=c7ba45cc299866d60aaca7279cb823f5&oe=586D5244);
+    background-image: url(https://scontent.fhou1-2.fna.fbcdn.net/v/t1.0-9/12112445_887676661286672_7276285292127940867_n.jpg?oh=9fd1d8b9e0bcac318cf458554dd0908d&oe=5866B660);
+    background-image: url(https://scontent.fhou1-2.fna.fbcdn.net/v/t1.0-9/10269513_737576889629984_663488553481260588_n.jpg?oh=0f446fd03189244e5c0f5e23d2a5505a&oe=58725183);
+ */  
+
 }
+/* http://tympanus.net/Development/MultiLayoutSlideshow/ for slideshow css and html*/
