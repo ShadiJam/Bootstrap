@@ -47,7 +47,21 @@ header#header nav {
     margin-left: -10px;
 }
 
-ul {
+.row > [class*="span"] {
+    display: inline;
+    float: left;
+    margin-left: 10px;
+}
+
+.span2 {
+    width: 150px;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+ul li {
     margin: 0;
     padding: 0;
     list-style-type: disc;
